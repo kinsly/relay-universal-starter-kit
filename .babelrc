@@ -1,0 +1,14 @@
+{
+  "passPerPreset": true,
+  "presets": [
+    "react",
+    "es2015",
+    "stage-0"
+  ],
+  "plugins": [
+    "./build/babelRelayPlugin",
+    "transform-decorators-legacy",
+    "transform-runtime"
+
+  ]
+}

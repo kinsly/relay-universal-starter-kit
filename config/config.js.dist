@@ -1,0 +1,29 @@
+/**
+ * Job Seeker Site Configurations
+ */
+const QL_SERVER_IP = "http://192.168.10.90";
+const QL_SERVER_PORT = 5000
+
+//Ql Server url used to render site on server side [node server]
+exports.QL_SERVER_FULL = QL_SERVER_IP+"/graphql-jobseeker"
+
+//port which node server runs
+exports.EXPRESS_SERVER_PORT = 3001
+
+//RestApi used to get user current language
+exports.REST_API_CURLANG = QL_SERVER_IP+"/curlang"
+
+//QL server url called on client side[calls made by web browsers]
+exports.CLIENT_QL_URL ="/graphql-jobseeker"
+
+//Google Analytics Tracking Id demo ID: UA-85367849-2
+exports.google_Analytics_id = "UA-85367849-2"
+
+//Funtions
+
+function SetTitleBar(){
+    let title = el.getElementsByTagName('title');
+    title[0].innerHTML = "Home Page"
+}
+
+

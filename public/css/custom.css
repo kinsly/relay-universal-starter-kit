@@ -1,0 +1,32 @@
+/**
+* All Your Custom Css Styles Goes Here
+*/
+
+/**
+* React Router page transition effect
+*/
+
+.Image {
+  position: absolute;
+  padding-right: 50px;
+  width: 100%;
+}
+
+.react-page-enter {
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+.react-page-enter.react-page-enter-active {
+  opacity: 1;
+}
+
+.react-page-leave {
+  opacity: 0.2;
+  transform: opacity .1s
+
+}
+
+.react-page-leave.react-page-leave-active {
+  opacity: 0;
+}
