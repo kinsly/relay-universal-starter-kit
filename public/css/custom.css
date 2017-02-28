@@ -23,8 +23,6 @@
 
 .react-page-leave {
   opacity: 0.2;
-  transform: opacity .1s
-
 }
 
 .react-page-leave.react-page-leave-active {

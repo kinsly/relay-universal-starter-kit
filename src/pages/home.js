@@ -21,7 +21,7 @@ class HomePage extends React.Component{
   render(){
 
     return (
-      <div>
+      <div style = {{textAlign:"center"}} className = "Image">
           <Helmet
               title= {this.context.intl.formatMessage({id:"home_page_title"})}
               meta={ [

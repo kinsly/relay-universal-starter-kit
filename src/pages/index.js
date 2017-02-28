@@ -28,8 +28,8 @@ class IndexPage extends Component{
               <ReactCSSTransitionGroup
                   component="div"
                   transitionName="react-page"
-                  transitionEnterTimeout={1000}
-                  transitionLeaveTimeout={1000}>
+                  transitionEnterTimeout={500}
+                  transitionLeaveTimeout={500}>
                   {
                     React.cloneElement(this.props.children, {
                       key: this.props.location.pathname,

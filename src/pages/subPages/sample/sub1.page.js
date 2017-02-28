@@ -21,7 +21,7 @@ class SampleSub1 extends React.Component{
   render(){
 
     return (
-      <div>
+      <div style = {{textAlign:"center"}} className = "Image">
         <Helmet
             title= {this.context.intl.formatMessage({id:"sample_page1_title"})}
             meta={ [
